@@ -1,0 +1,57 @@
+body{
+    background-color: #fff8ed;
+}
+/* img{
+    width: 1%;
+    height: auto;
+    float: left;
+}
+.btn {
+    border: none;
+    padding-top: 3%;
+    background-color: inherit;
+    font-family: "Frank new", sans-serif;
+    font-size: 120%;
+    cursor: crosshair;
+    display: inline-block;
+    color:#042c6d;
+    /* text-align: right; */
+
+} */
+.btn:hover {
+    color: #5f84c3
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+p::first-letter {
+    font-size: 200%;
+}
+p{
+    font-family: "Frank new", sans-serif;
+    font-size: 350%;
+    color: #042c6d;
+    text-align: center;
+    letter-spacing: -20%;
+}
+img{
+    width: 40%;
+    height: auto;
+}
+.one{
+position: relative;
+/* top: 30px; */
+left:10%;
+}
+.two{
+    position: relative;
+    /* top: px; */
+    left:55%;
+}
+.three{
+    position: relative;
+    /* top: 35px; */
+    left: 15%;
+}
