@@ -1,38 +1,61 @@
-body{
-    background-color: #fff8ed;
+body{ background-color:
+     #fff8ed;
     
 }
-.name{
+/* .headerNavigation {
     font-family: "Frank new", sans-serif;
-    font-size: 500%;
-    color:#042c6d;
-    position: absolute;
-    top:150px;
-    left:20px;
-}
-nav.mobile {
-    display: block;
-    width: 100%;
-    height: 75px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #faf1e3;
-    -webkit-transition: .6s all cubic-bezier(0,1.005,.365,.97);
-    -o-transition: .6s all cubic-bezier(0,1.005,.365,.97);
-    transition: .6s all cubic-bezier(0,1.005,.365,.97);
-    z-index: 999;
-   
+    color: #042c6d;
+    text-align: right
+} */
+img{
+    width: 10%;
+    height: auto;
+    float: left;
 }
 .btn {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    /* width: 60px; */
-    margin:20px;
-    padding: 2px;
-    height: 20px;
-    border: 2px solid #042c6d;
-    color:#042c6d;
+    border: none;
+    padding-top: 3%;
+    background-color: inherit;
     font-family: "Frank new", sans-serif;
+    font-size: 120%;
+    cursor: crosshair;
+    display: inline-block;
+    color:#042c6d;
+    /* text-align: right; */
+
+}
+.btn:hover {
+    color: #5f84c3
+}
+.name {
+    font-family: "Frank new", sans-serif;
+    color:#042c6d;
+    font-size: 600%;
+    text-align: center;
+    padding-top: 17%;
+    background-color: #042c6d;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+    
+
+}
+
+.navContainer{
+    text-align: right;
+}
+.subtitle{
+    font-family: "Frank new", sans-serif;
+    color:#042c6d;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #042c6d;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
 }
